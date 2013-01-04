@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53C25E0516976AC6003069FC /* BattleMapSplashScreen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 53C25E0416976AC6003069FC /* BattleMapSplashScreen.jpg */; };
 		53DD19091697697E00070682 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53DD19081697697E00070682 /* UIKit.framework */; };
 		53DD190B1697697E00070682 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53DD190A1697697E00070682 /* Foundation.framework */; };
 		53DD190D1697697E00070682 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53DD190C1697697E00070682 /* CoreGraphics.framework */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		53C25E0416976AC6003069FC /* BattleMapSplashScreen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BattleMapSplashScreen.jpg; sourceTree = "<group>"; };
 		53DD19041697697E00070682 /* LayerFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LayerFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53DD19081697697E00070682 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		53DD190A1697697E00070682 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -56,6 +58,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		53C25E0216976AAF003069FC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				53C25E0416976AC6003069FC /* BattleMapSplashScreen.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		53DD18F91697697E00070682 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +97,7 @@
 		53DD190E1697697E00070682 /* LayerFun */ = {
 			isa = PBXGroup;
 			children = (
+				53C25E0216976AAF003069FC /* Resources */,
 				53DD19171697697E00070682 /* LayerFunAppDelegate.h */,
 				53DD19181697697E00070682 /* LayerFunAppDelegate.m */,
 				53DD19201697697E00070682 /* LayerFunViewController.h */,
@@ -168,6 +179,7 @@
 				53DD191D1697697E00070682 /* Default@2x.png in Resources */,
 				53DD191F1697697E00070682 /* Default-568h@2x.png in Resources */,
 				53DD19251697697E00070682 /* LayerFunViewController.xib in Resources */,
+				53C25E0516976AC6003069FC /* BattleMapSplashScreen.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

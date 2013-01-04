@@ -30,6 +30,9 @@
     sublayer.shadowColor = [UIColor blackColor].CGColor;
     sublayer.shadowOpacity = 0.8;
     sublayer.frame = CGRectMake(30, 30, 128, 192);
+    sublayer.contents = (id)[UIImage imageNamed:@"BattleMapSplashScreen.jpg"].CGImage;
+    sublayer.borderColor = [UIColor blackColor].CGColor;
+    sublayer.borderWidth = 2.0;
     [self.view.layer addSublayer:sublayer];
 }
 
