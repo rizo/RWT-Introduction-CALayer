@@ -18,6 +18,7 @@
 		53DD191F1697697E00070682 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53DD191E1697697E00070682 /* Default-568h@2x.png */; };
 		53DD19221697697E00070682 /* LayerFunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53DD19211697697E00070682 /* LayerFunViewController.m */; };
 		53DD19251697697E00070682 /* LayerFunViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53DD19231697697E00070682 /* LayerFunViewController.xib */; };
+		53DD1931169769A400070682 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53DD1930169769A400070682 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		53DD19201697697E00070682 /* LayerFunViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LayerFunViewController.h; sourceTree = "<group>"; };
 		53DD19211697697E00070682 /* LayerFunViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LayerFunViewController.m; sourceTree = "<group>"; };
 		53DD19241697697E00070682 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LayerFunViewController.xib; sourceTree = "<group>"; };
+		53DD1930169769A400070682 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 				53DD19091697697E00070682 /* UIKit.framework in Frameworks */,
 				53DD190B1697697E00070682 /* Foundation.framework in Frameworks */,
 				53DD190D1697697E00070682 /* CoreGraphics.framework in Frameworks */,
+				53DD1931169769A400070682 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +79,7 @@
 				53DD19081697697E00070682 /* UIKit.framework */,
 				53DD190A1697697E00070682 /* Foundation.framework */,
 				53DD190C1697697E00070682 /* CoreGraphics.framework */,
+				53DD1930169769A400070682 /* QuartzCore.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -293,6 +297,7 @@
 				53DD192A1697697E00070682 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

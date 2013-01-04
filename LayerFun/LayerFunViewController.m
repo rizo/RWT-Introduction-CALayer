@@ -6,6 +6,7 @@
 //  Copyright (c) 2013 Ravero. All rights reserved.
 //
 
+#import <QuartzCore/QuartzCore.h>
 #import "LayerFunViewController.h"
 
 @interface LayerFunViewController ()
@@ -17,7 +18,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+    self.view.layer.backgroundColor = [UIColor orangeColor].CGColor;
+    self.view.layer.cornerRadius = 20.0;
+    self.view.layer.frame = CGRectInset(self.view.layer.frame, 20, 20);
 }
 
 - (void)didReceiveMemoryWarning
