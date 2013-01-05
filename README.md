@@ -1,5 +1,5 @@
-RWT-Introduction-CALayer
-========================
+Introduction to CALayer Tutorial
+================================
 
 This code was created following along the "Introduction to CALayer Tutorial", an article published by Ray Wenderlich in his portal (http://www.raywenderlich.com).
 
